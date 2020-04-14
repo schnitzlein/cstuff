@@ -1,0 +1,3 @@
+echo bisher nur so moeglich, parameter können geändert werden...
+echo.
+nasmw.exe -f bin ASM03A.asm -o asm03.com

@@ -1,0 +1,11 @@
+für c++;
+nasm -f elf -o factasm.o fact.asm 
+g++ -o fact fact.c factasm.o
+
+für DDD
+nasm -g -f elf -o main.o main-nasm.asm
+g++ -o main -g -Wall main.o
+
+erstellen der starter c mit den beiden asm files
+g++ -o getDivisor getDivisor.cpp main-nasm_cpp_a.o main-nasm_cpp_b.o
+
